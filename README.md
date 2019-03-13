@@ -84,7 +84,7 @@ The resulting binary image can be seen below.
 ![alt text][image6]
 #### 3. Describe how (and identify where in your code) you performed a perspective transform and provide an example of a transformed image.
 
-The code for my perspective transform(can be found in cell [5]) includes a function called `unwarp()`, which appears in the 5th code cell of the IPython notebook.  The `unwarp()` function takes as inputs an image (`img`), and returns the perspective transform of the image. I chose the hardcode the source and destination points in the following manner:
+The code for my perspective transform(can be found in cell [5]) includes a function called `unwarp()`, which appears in the 5th code cell of the IPython notebook.  The `unwarp()` function takes as inputs an image (`img`), and returns the perspective transform of the image. I chose to hardcode the source and destination points in the following manner:
 
 ```python
 src = np.float32([[600,452],[691,452],[275,680],[1050,680]])
