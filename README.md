@@ -127,6 +127,7 @@ As mentioned in "Lesson 18:5:Findin the lines:Search from prior:" I have used cu
 
 #### 5. Describe how (and identify where in your code) you calculated the radius of curvature of the lane and the position of the vehicle with respect to center.
 The code to find the Radius of curvature can be found in cell [13] of Ipython notebook. By using the `left_fit, right_fit and ploty` values from the pervious `fit_polynomial()` function . The equation for radius of curvature is given below
+
 `R = ((1 + (2 * A * y_eval + B) ** 2) ** 1.5) / np.absolute(2 * A)`
 
 Image pixels are converted to meters by using below conversions
